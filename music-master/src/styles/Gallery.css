@@ -1,0 +1,55 @@
+.track {
+  display: inline-block;
+  cursor: pointer;
+  height: 220px;
+  margin: 10px;
+  position: relative;
+  text-align: left;
+  width: 220px;
+}
+
+.track__img {
+  border: 3px solid #fff;
+  border-radius: 3px;
+  height: 220px;
+  object-fit: cover;
+  position: absolute;
+  width: 220px;
+}
+
+.track__text {
+  background-color: #000;
+  bottom: 10px;
+  color: #fff;  
+  opacity: .75;
+  margin: 0 0 0 3px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 214px;
+}
+
+.track__play {
+  align-items: center;
+  display: flex;
+  font-size: 48px;
+  justify-content: center;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.25s 0s cubic-bezier(0,0,0,.3);
+}
+
+.track__play-inner {
+  align-items: center;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  width: 80px;
+}
+
+.track__play:hover {
+  opacity: .8;
+}

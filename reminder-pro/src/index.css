@@ -1,0 +1,28 @@
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+}
+
+.reminder-form {
+  padding: 5px;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.delete-button {
+  float: right;
+  padding: 5px;
+}

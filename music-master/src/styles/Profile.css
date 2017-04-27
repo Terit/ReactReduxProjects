@@ -1,0 +1,29 @@
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile__img {
+  border: 3px solid #fff;
+  border-radius: 75px;
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.profile__name {
+  font-size: 1.5rem;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 1rem;
+  text-align: left;
+}
+
+.profile__followers,
+.profile__genres {
+  font-size: 1.25rem;
+}

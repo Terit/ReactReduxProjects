@@ -1,0 +1,7 @@
+.Clock-seconds,
+.Clock-minutes,
+.Clock-hours,
+.Clock-days {
+  display: inline;
+  margin: .875rem;
+}
